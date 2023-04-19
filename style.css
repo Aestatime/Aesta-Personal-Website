@@ -136,11 +136,13 @@ ul li:hover ul.dropdown{
 
 /* About */
 .about-paraph{
+  font-weight: 300;
   font-size: 1.1rem;
 }
 
 .about-link{
   text-decoration: none;
+  font-weight: 600;
   color: #559723
 }
 
