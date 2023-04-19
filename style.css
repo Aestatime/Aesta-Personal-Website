@@ -24,7 +24,6 @@
 body {
   font-family: 'General Sans', sans-serif;
   background: #f5ece6;
-  justify-items: center;
 }
 
 html {
@@ -79,7 +78,7 @@ nav ul li a:hover{
 }
  
 /* DropDownMenu */
-ul li ul.dropdown li{
+/*ul li ul.dropdown li{
   display: block;
 }
 
@@ -125,7 +124,7 @@ ul li:hover ul.dropdown{
 .big-text2{
   font-family: var(--headerFont);
   font-weight: 600;
-  font-size: 3.5rem;
+  font-size: 2rem;
   margin-top: 5rem;
 }
 
@@ -135,14 +134,33 @@ ul li:hover ul.dropdown{
   line-height: 1rem;
 }
 
+/* About */
+.about-paraph{
+  font-size: 1.1rem;
+}
+
+.about-link{
+  text-decoration: none;
+  color: #559723
+}
+
+/* My Work */
+.card-title{
+  font-family: 'Cabinet Grotesk', sans-serif;
+}
+
 /* Footer */
+
+.footer{
+  background-color: #EAD5C7;
+}
 
 .socials{
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 0rem 0 1rem 0;
 }
 
 .socials li{
@@ -162,8 +180,6 @@ ul li:hover ul.dropdown{
   color: #559723;
 }
 
-.border{
+.footer-copyright{
   color: var(--black);
-  width: 50%;
-  box-sizing: border-box;
 }
