@@ -148,13 +148,17 @@ ul li:hover ul.dropdown{
 
 /* My Work */
 .card-title{
-  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: bold;
+}
+
+.card{
+  background: #f7e3d7;
 }
 
 /* Footer */
 
 .footer{
-  background-color: #EAD5C7;
+  background-color: #ebcfbd;
 }
 
 .socials{
@@ -184,8 +188,4 @@ ul li:hover ul.dropdown{
 
 .footer-copyright{
   color: var(--black);
-}
-
-.card{
-  background: #f5ece6;
 }
