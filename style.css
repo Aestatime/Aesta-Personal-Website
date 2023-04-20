@@ -185,3 +185,7 @@ ul li:hover ul.dropdown{
 .footer-copyright{
   color: var(--black);
 }
+
+.card{
+  background: #f5ece6;
+}
